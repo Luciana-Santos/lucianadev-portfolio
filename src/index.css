@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.padblock-header {
+  padding-block: clamp(40px, 5vw, 7rem);
+}
+
+.headerTitle {
+  font-size: clamp(2.25rem, 5vw, 4.125rem);
+}
+
+.headerSubtitle {
+  font-size: clamp(1rem, 4vw, 1.625rem);
+}
+
+.btn {
+  @apply rounded-md font-bold uppercase tracking-wider px-5 py-2.5 transition-all duration-300 ease-linear delay-0;
+}
+
+.btn-call-action:hover {
+  box-shadow: rgb(248, 207, 145) 0px 0px 20px;
+}
+
+.hero-img {
+  background: url('/assets/hero.png') center top / cover no-repeat;
+}
+
+.container {
+  width: min(100% - 2rem, 60rem);
+  margin-inline: auto;
+}

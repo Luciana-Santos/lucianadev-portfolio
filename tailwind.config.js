@@ -14,6 +14,10 @@ export default {
         ltOrange: 'hsla(36, 88%, 77%, 1)',
         mdOrange: 'hsla(34, 62%, 63%, 1)',
       },
+      fontFamily: {
+        berkshire: "'Berkshire Swash', serif",
+        space: "'Space Mono', monospace",
+      },
     },
   },
   plugins: [],
