@@ -6,7 +6,7 @@ export default {
       colors: {
         white: 'hsla(0, 0%, 100%, 1)',
         whiteBody: 'hsla(0, 0%, 100%, 0.7)',
-        vdBlue: 'hsla(240, 52%, 5%, 1)',
+        vdBlue: 'hsla(240, 50%, 5%, 1)',
         mdGreen: 'hsla(167, 49%, 43%, 1)',
         dkViolet: 'hsla(240, 47%, 14%, 1)',
         dkPurple: 'hsla(243, 44%, 25%, 1)',

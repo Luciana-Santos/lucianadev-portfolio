@@ -4,7 +4,7 @@ import Techs from './Techs'
 
 export default function About() {
   const { scrollY } = useScroll()
-  const y1 = useTransform(scrollY, [0, 100], [1, 80])
+  const y1 = useTransform(scrollY, [0, 100], [1, 100])
   const y2 = useTransform(scrollY, [0, 100], [1, 50])
 
   return (
@@ -12,11 +12,11 @@ export default function About() {
       <section className="planet-top relative">
         <motion.div
           style={{ y: y1, x: 0 }}
-          className="back-cloud w-full h-[427px] overflow-hidden absolute top-[-248px] left-0 z-[-200]"
+          className="back-cloud w-full h-[247px] overflow-hidden absolute top-[-250px] left-0 z-[-200]"
         ></motion.div>
         <motion.div
           style={{ y: y2, x: 0 }}
-          className="front-cloud w-full h-[380px] absolute top-[-205px] left-0 z-[-100]"
+          className="front-cloud w-full h-[385px] absolute top-[-205px] left-0 z-[-100]"
         ></motion.div>
 
         <div className="section-layout">
