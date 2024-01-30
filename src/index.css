@@ -28,8 +28,12 @@
   box-shadow: rgb(248, 207, 145) 0px 0px 20px;
 }
 
-.hero-img {
-  background: url('/assets/hero.png') center top / cover no-repeat;
+.hero-front {
+  background: url('/assets/hero-front.png') center top / cover no-repeat;
+}
+
+.hero-back {
+  background: url('/assets/hero-back.png') center top / cover no-repeat;
 }
 
 .container {

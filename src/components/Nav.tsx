@@ -6,16 +6,14 @@ export default function Nav() {
       <ul className="flex  gap-x-5 justify-center flex-wrap">
         {data.map((link) => {
           return (
-            <>
-              <li key={link.path}>
-                <a
-                  href={link.path}
-                  className="block uppercase text-whiteBody hover:text-white tracking-wider py-2.5"
-                >
-                  {link.name}
-                </a>
-              </li>
-            </>
+            <li key={link.path}>
+              <a
+                href={link.path}
+                className="block uppercase text-whiteBody hover:text-white tracking-wider py-2.5"
+              >
+                {link.name}
+              </a>
+            </li>
           )
         })}
       </ul>
