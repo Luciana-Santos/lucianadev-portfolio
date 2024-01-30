@@ -1,4 +1,4 @@
-import { data } from '../utils/data'
+import { data } from '../utils/content'
 
 export default function Nav() {
   return (
