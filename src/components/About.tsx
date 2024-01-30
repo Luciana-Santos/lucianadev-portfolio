@@ -1,12 +1,23 @@
+import { motion, useScroll, useTransform } from 'framer-motion'
 import Title from '../ui/Title'
 import Techs from './Techs'
 
 export default function About() {
+  const { scrollY } = useScroll()
+  const y1 = useTransform(scrollY, [0, 100], [1, 80])
+  const y2 = useTransform(scrollY, [0, 100], [1, 50])
+
   return (
     <>
       <section className="planet-top relative">
-        <div className="back-cloud w-full h-[427px] absolute top-[-248px] left-0 z-[-200]"></div>
-        <div className="front-cloud w-full h-[380px] absolute top-[-205px] left-0 z-[-100]"></div>
+        <motion.div
+          style={{ y: y1, x: 0 }}
+          className="back-cloud w-full h-[427px] overflow-hidden absolute top-[-248px] left-0 z-[-200]"
+        ></motion.div>
+        <motion.div
+          style={{ y: y2, x: 0 }}
+          className="front-cloud w-full h-[380px] absolute top-[-205px] left-0 z-[-100]"
+        ></motion.div>
 
         <div className="section-layout">
           <Title>Sobre</Title>
