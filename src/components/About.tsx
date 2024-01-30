@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Title from '../ui/Title'
 import Techs from './Techs'
+import { getYearsOld } from '../utils/currentAge'
 
 export default function About() {
   const { scrollY } = useScroll()
@@ -25,8 +26,8 @@ export default function About() {
           <div className="grid gap-10 md:grid-cols-[2fr_1fr] items-center">
             <div className="grid gap-5">
               <p>
-                Sou Luciana Santos, 26 anos, residente de São Paulo-SP e
-                Desenvolvedora front end.
+                Sou Luciana Santos, {getYearsOld()} anos, residente de São
+                Paulo-SP e Desenvolvedora front end.
               </p>
               <p>
                 Minha parte favorita em trabalhar com desenvolvimento web é a
