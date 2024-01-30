@@ -1,6 +1,10 @@
+import { motion, useScroll, useTransform } from 'framer-motion'
 import Nav from './Nav'
 
 export default function Header() {
+  const { scrollY } = useScroll()
+  const y2 = useTransform(scrollY, [0, 400], [0, -100])
+
   return (
     <header>
       <Nav />
@@ -32,7 +36,11 @@ export default function Header() {
             </a>
           </div>
         </div>
-        <div className="h-full w-full absolute top-0 left-0 right-0 pointer-events-none hero-img"></div>
+        <motion.div
+          style={{ y: y2, x: 0 }}
+          className="h-full w-full absolute top-0 left-0 right-0 pointer-events-none hero-front"
+        ></motion.div>
+        <div className="h-full w-full absolute top-0 left-0 right-0 pointer-events-none hero-back"></div>
       </div>
     </header>
   )
