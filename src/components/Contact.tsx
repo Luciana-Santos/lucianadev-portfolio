@@ -8,10 +8,7 @@ export default function Contact() {
 
       <div className="flex items-center  flex-col-reverse md:flex-row justify-between gap-14">
         <div>
-          <img
-            src="https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/contato-img.png?raw=true"
-            alt=""
-          />
+          <img src="/assets/contact-img.png" alt="" />
         </div>
         <div>
           <p className="mb-10">
