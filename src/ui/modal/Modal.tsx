@@ -43,7 +43,7 @@ const Backdrop = () => {
       initial="hidden"
       animate="visible"
       exit="hidden"
-      className="fixed top-0 left-0 bottom-0 w-full h-full bg-modalBackdrop z-[8888] grid content-center justify-center"
+      className="fixed top-0 left-0 bottom-0 w-full h-full z-[8888] grid content-center justify-center backdrop-blur-lg"
     ></motion.div>
   )
 }
