@@ -1,3 +1,4 @@
+import { Fade } from 'react-awesome-reveal'
 import Title from '../ui/Title'
 import { projects } from '../utils/content'
 import ProjectItem from './ProjectItem'
@@ -6,7 +7,9 @@ export default function Projects() {
   return (
     <section className="planet-bottom relative">
       <div className="section-layout">
-        <Title>Projetos</Title>
+        <Fade direction="down">
+          <Title>Projetos</Title>
+        </Fade>
         <div className="flex flex-wrap justify-center gap-7">
           {projects.map((project) => {
             return <ProjectItem key={project.id} data={project} />
