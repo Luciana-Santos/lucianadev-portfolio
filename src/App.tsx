@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import Modal from './ui/modal/Modal'
 import ModalContent from './ui/modal/ModalContent'
 import { ModalProjectContext } from './store/ModalContext'
+import Contact from './components/Contact'
 
 export default function App() {
   const { isModalOpen } = useContext(ModalProjectContext)
@@ -20,6 +21,7 @@ export default function App() {
             <ModalContent />
           </Modal>
         )}
+        <Contact />
       </main>
     </>
   )
