@@ -6,6 +6,7 @@ import Modal from './ui/modal/Modal'
 import ModalContent from './ui/modal/ModalContent'
 import { ModalProjectContext } from './store/ModalContext'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 export default function App() {
   const { isModalOpen } = useContext(ModalProjectContext)
@@ -23,6 +24,7 @@ export default function App() {
         )}
         <Contact />
       </main>
+      <Footer />
     </>
   )
 }
