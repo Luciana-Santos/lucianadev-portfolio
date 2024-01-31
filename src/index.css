@@ -9,10 +9,10 @@
 }
 
 body {
-  background: rgb(6, 6, 19);
+  background: rgb(7, 7, 21);
   background: linear-gradient(
     180deg,
-    rgba(6, 6, 19, 1) 82%,
+    rgba(7, 7, 21, 1) 82%,
     rgba(19, 19, 53, 1) 100%
   );
 }
@@ -64,7 +64,7 @@ img {
 }
 
 .link {
-  @apply text-mdGreen italic font-bold block py-1;
+  @apply text-mdGreen italic font-bold inline-block py-1;
 }
 
 .planet-top {
