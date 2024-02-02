@@ -1,7 +1,8 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
-import Nav from './Nav'
 import { Fade } from 'react-awesome-reveal'
 import { PiDownloadSimpleBold } from 'react-icons/pi'
+import Button from '../ui/Button'
+import Nav from './Nav'
 
 export default function Header() {
   const { scrollY } = useScroll()
@@ -27,19 +28,19 @@ export default function Header() {
           </Fade>
           <Fade direction="right">
             <div className="flex flex-wrap gap-y-5 gap-x-10 justify-center items-center">
-              <a
-                href="#contact"
-                className="btn bg-ltOrange text-vdBlue btn-call-action"
+              <Button
+                path="#contact"
+                className="bg-ltOrange text-vdBlue btn-call-action"
               >
                 Contato
-              </a>
-              <a
-                href="https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/curriculo/Luciana-curriculo.pdf"
-                className="btn flex items-center gap-2 text-ltOrange border-[3px] border-ltOrange hover:bg-dkViolet hover:border-dkViolet"
+              </Button>
+              <Button
+                path="https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/curriculo/Luciana-curriculo.pdf"
+                className="flex items-center gap-2 text-ltOrange border-[3px] border-ltOrange hover:bg-dkViolet hover:border-dkViolet"
               >
                 <PiDownloadSimpleBold />
                 Currículo
-              </a>
+              </Button>
             </div>
           </Fade>
         </div>

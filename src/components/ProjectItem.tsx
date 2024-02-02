@@ -28,7 +28,7 @@ export default function ProjectItem({ data }: { data: ProjectProps }) {
       transition={{ type: 'spring', stiffness: 400, damping: 17 }}
     >
       <div>
-        <img src={data.imagem} alt="" />
+        <img src={data.imagem} alt={`Projeto ${data.title}`} />
       </div>
       <div className="bg-dkViolet p-4">
         <h4 className="leading-[1]">{data.title}</h4>

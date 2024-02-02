@@ -1,27 +1,14 @@
-import { motion, useScroll, useTransform } from 'framer-motion'
-import Title from '../ui/Title'
-import Techs from './Techs'
-import { getYearsOld } from '../utils/currentAge'
 import { Fade } from 'react-awesome-reveal'
+import Link from '../ui/Link'
+import Title from '../ui/Title'
 import { content } from '../utils/content'
+import { getYearsOld } from '../utils/currentAge'
+import Techs from './Techs'
 
 export default function About() {
-  const { scrollY } = useScroll()
-  const y1 = useTransform(scrollY, [0, 100], [1, 100])
-  const y2 = useTransform(scrollY, [0, 100], [1, 50])
-
   return (
     <>
-      <section id="about" className="planet-top relative">
-        <motion.div
-          style={{ y: y1, x: 0 }}
-          className="back-cloud w-full h-[247px] overflow-hidden absolute top-[-250px] left-0 z-[-200]"
-        ></motion.div>
-        <motion.div
-          style={{ y: y2, x: 0 }}
-          className="front-cloud w-full h-[385px] absolute top-[-205px] left-0 z-[-100]"
-        ></motion.div>
-
+      <section id="about" className=" ">
         <div className="section-layout">
           <Fade direction="down">
             <Title>Sobre</Title>
@@ -46,24 +33,13 @@ export default function About() {
                   <div>
                     <h3 className="mb-3 text-2xl font-berkshire">Links:</h3>
                     <ul>
-                      <li>
-                        <a
-                          href="https://www.linkedin.com/in/luciana-dss/"
-                          className="link"
-                          target="_blank"
-                        >
-                          Linkedin
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://github.com/Luciana-Santos"
-                          className="link"
-                          target="_blank"
-                        >
-                          GitHub
-                        </a>
-                      </li>
+                      {content.sobreLinks.map((link) => {
+                        return (
+                          <li key={link.id}>
+                            <Link name={link.name} path={link.url} />
+                          </li>
+                        )
+                      })}
                     </ul>
                   </div>
                   <div>

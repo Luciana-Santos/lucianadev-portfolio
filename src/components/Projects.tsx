@@ -17,8 +17,8 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="w-full h-[247px] absolute left-0 z-[-200] bottom-[-166px] back-cloud-contact"></div>
-      <div className="w-full h-[385px] absolute left-0 z-[-100] front-cloud-contact bottom-[-185px]"></div>
+      <div className="w-full h-[422px] absolute left-0 z-[-200] bottom-[-166px] back-cloud-contact"></div>
+      <div className="w-full h-[427px] absolute left-0 z-[-100] front-cloud-contact bottom-[-185px]"></div>
     </section>
   )
 }

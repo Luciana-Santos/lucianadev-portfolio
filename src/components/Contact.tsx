@@ -12,7 +12,10 @@ export default function Contact() {
       <div className="flex items-center  flex-col-reverse md:flex-row justify-between gap-14">
         <Fade direction="left">
           <div>
-            <img src="/assets/contact-img.png" alt="" />
+            <img
+              src="/assets/contact-img.png"
+              alt="Space image with a paper airplane"
+            />
           </div>
         </Fade>
 

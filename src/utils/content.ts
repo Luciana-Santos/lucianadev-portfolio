@@ -49,13 +49,38 @@ export const content = {
     },
     {
       id: Math.round(Math.random() * 99999),
-      name: 'React',
+      name: 'React.js',
       icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
     },
     {
       id: Math.round(Math.random() * 99999),
       name: 'Styled Components',
       icon: 'https://i.postimg.cc/pTspXBPg/styled-icon.png',
+    },
+    {
+      id: Math.round(Math.random() * 99999),
+      name: 'Express',
+      icon: '/assets/express-icon.png',
+    },
+    {
+      id: Math.round(Math.random() * 99999),
+      name: 'Next.js',
+      icon: '/assets/nextjs-icon.png',
+    },
+    {
+      id: Math.round(Math.random() * 99999),
+      name: 'Node',
+      icon: '/assets/node-icon.png',
+    },
+    {
+      id: Math.round(Math.random() * 99999),
+      name: 'MongoDB',
+      icon: '/assets/mongodb-icon.png',
+    },
+    {
+      id: Math.round(Math.random() * 99999),
+      name: 'Tailwindcss',
+      icon: '/assets/tailwind-icon.png',
     },
   ],
 }
