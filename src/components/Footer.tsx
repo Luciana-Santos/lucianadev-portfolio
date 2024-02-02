@@ -1,3 +1,4 @@
+import Link from '../ui/Link'
 import { getCurrentYear } from '../utils/currentYear'
 
 export default function Footer() {
@@ -6,14 +7,9 @@ export default function Footer() {
       <div className="container">
         <p className="text-center">
           Boa parte dos direitos reservados. |{' '}
-          <a
-            href="https://github.com/Luciana-Santos"
-            target="_blank"
-            className="link"
-          >
-            {' '}
+          <Link path="https://github.com/Luciana-Santos" target="_blank">
             Luciana Santos©
-          </a>{' '}
+          </Link>{' '}
           {getCurrentYear()}
         </p>
       </div>
