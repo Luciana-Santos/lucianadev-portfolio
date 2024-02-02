@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal'
 
 export default function Contact() {
   return (
-    <section className="relative section-layout">
+    <section id="contact" className="relative section-layout">
       <Fade direction="down">
         <Title>Contato</Title>
       </Fade>

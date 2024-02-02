@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Nav from './Nav'
 import { Fade } from 'react-awesome-reveal'
+import { PiDownloadSimpleBold } from 'react-icons/pi'
 
 export default function Header() {
   const { scrollY } = useScroll()
@@ -34,8 +35,9 @@ export default function Header() {
               </a>
               <a
                 href="#"
-                className="btn text-ltOrange border-[3px] border-ltOrange hover:bg-dkViolet hover:border-dkViolet"
+                className="btn flex items-center gap-2 text-ltOrange border-[3px] border-ltOrange hover:bg-dkViolet hover:border-dkViolet"
               >
+                <PiDownloadSimpleBold />
                 Currículo
               </a>
             </div>
