@@ -2,6 +2,7 @@ import { useContext } from 'react'
 import { ModalProjectContext } from '../../store/ModalContext'
 import { motion } from 'framer-motion'
 import Techs from '../../components/Techs'
+import Link from '../Link'
 
 export default function ModalContent() {
   const { isModalOpen } = useContext(ModalProjectContext)
@@ -26,22 +27,10 @@ export default function ModalContent() {
 
           <ul className="flex gap-5">
             <li>
-              <a
-                href={isModalOpen.project?.links.live}
-                target="_blank"
-                className="link"
-              >
-                Live
-              </a>
+              <Link path={isModalOpen.project?.links?.live}>Live</Link>
             </li>
             <li>
-              <a
-                href={isModalOpen.project?.links.code}
-                target="_blank"
-                className="link"
-              >
-                Code
-              </a>
+              <Link path={isModalOpen.project?.links?.code}>Code</Link>
             </li>
           </ul>
         </div>
