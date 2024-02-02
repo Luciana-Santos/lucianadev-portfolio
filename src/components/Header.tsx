@@ -34,7 +34,7 @@ export default function Header() {
                 Contato
               </a>
               <a
-                href="#"
+                href="https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/curriculo/Luciana-curriculo.pdf"
                 className="btn flex items-center gap-2 text-ltOrange border-[3px] border-ltOrange hover:bg-dkViolet hover:border-dkViolet"
               >
                 <PiDownloadSimpleBold />
