@@ -12,7 +12,7 @@ export default function About() {
 
   return (
     <>
-      <section className="planet-top relative">
+      <section id="about" className="planet-top relative">
         <motion.div
           style={{ y: y1, x: 0 }}
           className="back-cloud w-full h-[247px] overflow-hidden absolute top-[-250px] left-0 z-[-200]"
@@ -47,12 +47,20 @@ export default function About() {
                     <h3 className="mb-3 text-2xl font-berkshire">Links:</h3>
                     <ul>
                       <li>
-                        <a href="#" className="link">
+                        <a
+                          href="https://www.linkedin.com/in/luciana-dss/"
+                          className="link"
+                          target="_blank"
+                        >
                           Linkedin
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="link">
+                        <a
+                          href="https://github.com/Luciana-Santos"
+                          className="link"
+                          target="_blank"
+                        >
                           GitHub
                         </a>
                       </li>

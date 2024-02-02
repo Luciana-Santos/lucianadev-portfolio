@@ -5,7 +5,7 @@ import ProjectItem from './ProjectItem'
 
 export default function Projects() {
   return (
-    <section className="planet-bottom relative">
+    <section id="projects" className="planet-bottom relative">
       <div className="section-layout">
         <Fade direction="down">
           <Title>Projetos</Title>
