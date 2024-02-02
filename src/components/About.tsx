@@ -3,6 +3,7 @@ import Title from '../ui/Title'
 import Techs from './Techs'
 import { getYearsOld } from '../utils/currentAge'
 import { Fade } from 'react-awesome-reveal'
+import { content } from '../utils/content'
 
 export default function About() {
   const { scrollY } = useScroll()
@@ -62,8 +63,15 @@ export default function About() {
                       Tecnologias:
                     </h3>
                     <ul className="flex gap-5 items-center flex-wrap">
-                      <Techs />
-                      <Techs />
+                      {content.sobreTechs.map((tech) => {
+                        return (
+                          <Techs
+                            key={tech.id}
+                            icon={tech.icon}
+                            name={tech.name}
+                          />
+                        )
+                      })}
                     </ul>
                   </div>
                 </div>
