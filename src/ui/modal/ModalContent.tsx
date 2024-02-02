@@ -18,7 +18,9 @@ export default function ModalContent() {
 
           <ul className="flex flex-wrap gap-5 items-center">
             {isModalOpen.project?.techs.map((tech) => {
-              return <Techs key={tech.label} icon={tech.icon} />
+              return (
+                <Techs key={tech.label} icon={tech.icon} name={tech.label} />
+              )
             })}
           </ul>
 
