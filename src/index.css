@@ -135,7 +135,6 @@ img {
   z-index: -10;
   transform: rotate(180deg);
 }
-
 @media (min-width: 1920px) {
   .planet-top::before,
   .planet-bottom::after {
