@@ -21,11 +21,11 @@ export default function App() {
       <main className="relative planet-top">
         <motion.div
           style={{ y: y1, x: 0 }}
-          className="back-cloud w-full h-[420px] overflow-hidden absolute top-[-250px] left-0 z-[-200]"
+          className="back-cloud w-full h-[420px] widescreen:h-[534px] overflow-hidden absolute top-[-250px] left-0 z-[-200]"
         ></motion.div>
         <motion.div
           style={{ y: y2, x: 0 }}
-          className="front-cloud w-full h-[420px] absolute top-[-205px] left-0 z-[-100]"
+          className="front-cloud w-full h-[420px] widescreen:h-[534px] absolute top-[-205px] left-0 z-[-100]"
         ></motion.div>
         <About />
         <Projects />
