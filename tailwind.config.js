@@ -26,6 +26,10 @@ export default {
       fontSize: {
         modalTitle: 'clamp(22px, 5vw, 30px)',
       },
+      screens: {
+        widescreen: '1920px',
+        // => @media (min-width: 1920px) { ... }
+      },
     },
   },
   plugins: [],
