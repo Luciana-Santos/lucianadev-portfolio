@@ -82,6 +82,11 @@ export const content = {
       name: 'Tailwindcss',
       icon: '/assets/tailwind-icon.png',
     },
+    {
+      id: Math.round(Math.random() * 99999),
+      name: 'Mongoose ODM',
+      icon: '/assets/mongoose-icon.png',
+    },
   ],
 }
 
@@ -108,8 +113,7 @@ export const projects = [
       live: 'https://sistema-solar-luciana.netlify.app/',
       code: 'https://github.com/Luciana-Santos/sistema_solar',
     },
-    imagem:
-      'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/sistema_solar-preview.jpg?raw=true',
+    imagem: 'https://i.postimg.cc/LXvQZZ8g/sistema-solar-preview.png',
   },
   {
     id: 2,
@@ -133,14 +137,12 @@ export const projects = [
       live: 'https://lista-de-leitura.netlify.app/',
       code: 'https://github.com/Luciana-Santos/lista-de-leitura',
     },
-    imagem:
-      'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/booklist-preview.png?raw=true',
+    imagem: 'https://i.postimg.cc/8c0yZQW1/lista-de-leitura-preview.png',
   },
   {
     id: 3,
-    title: 'Readerly - Em construção...',
-    description:
-      'App para praticar a leitura de textos em Inglês, com dicionário e quiz integrados.',
+    title: 'WonderWords',
+    description: 'App online de dicionário no idioma Inglês.',
     techs: [
       {
         label: 'React',
@@ -156,10 +158,10 @@ export const projects = [
       },
     ],
     links: {
-      live: 'https://readerly.netlify.app/',
-      code: 'https://github.com/Luciana-Santos/readerly',
+      live: 'https://wonderwords.luciana.dev/',
+      code: 'https://github.com/Luciana-Santos/wonderwords',
     },
-    imagem: 'https://i.postimg.cc/V6Z6NvRD/readerly-preview.png',
+    imagem: 'https://i.postimg.cc/Vv6G9LJG/wonderwords-preview.png',
   },
   {
     id: 4,
@@ -184,7 +186,7 @@ export const projects = [
       live: 'https://floral-fantasy.netlify.app/',
       code: 'https://github.com/Luciana-Santos/floral-fantasy-cart',
     },
-    imagem: 'https://i.postimg.cc/SRHvFYSG/floral-fantasy-cart.png',
+    imagem: 'https://i.postimg.cc/2819VyR3/floral-fantasy-preview.png',
   },
   {
     id: 5,
@@ -208,12 +210,13 @@ export const projects = [
       live: 'https://sliceofspice.luciana.dev/',
       code: 'https://github.com/Luciana-Santos/slice-of-spice',
     },
-    imagem: 'https://i.postimg.cc/DyL4FTVT/slice-of-spice-preview.png',
+    imagem: 'https://i.postimg.cc/597k4vrZ/slice-of-spice-preview.png',
   },
   {
     id: 6,
-    title: 'WonderWords',
-    description: 'App online de dicionário no idioma Inglês.',
+    title: 'Recollection - WIP',
+    description:
+      'App para gerenciar arquivos. Projeto possui autenticação com OAuth, email e senha, upload e gerenciamento de arquivos, dashboard.',
     techs: [
       {
         label: 'React',
@@ -224,14 +227,26 @@ export const projects = [
         icon: 'https://i.postimg.cc/Y2mVbSc3/Group-32.png',
       },
       {
-        label: 'Styled Components',
-        icon: 'https://i.postimg.cc/pTspXBPg/styled-icon.png',
+        label: 'Tailwindcss',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/tailwind-icon.png',
+      },
+      {
+        label: 'Node',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/node-icon.png',
+      },
+      {
+        label: 'MongoDB',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/mongodb-icon.png',
+      },
+      {
+        label: 'Mongoose ODM',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/mongoose-icon.png',
       },
     ],
     links: {
-      live: 'https://wonderwords.luciana.dev/',
-      code: 'https://github.com/Luciana-Santos/wonderwords',
+      live: 'https://recollection.luciana.dev/',
+      code: 'https://github.com/Luciana-Santos/recollection',
     },
-    imagem: 'https://i.postimg.cc/NFKzzkcM/wonderwords.png',
+    imagem: 'https://i.postimg.cc/j5Rk5htr/recollection-preview-1.png',
   },
 ]
