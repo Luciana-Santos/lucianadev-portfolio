@@ -214,9 +214,9 @@ export const projects = [
   },
   {
     id: 6,
-    title: 'Recollection - WIP',
+    title: 'Recollection',
     description:
-      'App para gerenciar arquivos. Projeto possui autenticação com OAuth, email e senha, upload e gerenciamento de arquivos, dashboard.',
+      'App para gerenciar arquivos. Projeto possui autenticação com OAuth, upload e gerenciamento de arquivos, dashboard.',
     techs: [
       {
         label: 'React',
@@ -229,18 +229,6 @@ export const projects = [
       {
         label: 'Tailwindcss',
         icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/tailwind-icon.png',
-      },
-      {
-        label: 'Node',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/node-icon.png',
-      },
-      {
-        label: 'MongoDB',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/mongodb-icon.png',
-      },
-      {
-        label: 'Mongoose ODM',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/mongoose-icon.png',
       },
     ],
     links: {
