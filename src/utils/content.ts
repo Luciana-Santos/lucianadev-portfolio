@@ -93,51 +93,52 @@ export const content = {
 export const projects = [
   {
     id: 1,
-    title: 'Sistema Solar',
-    description: 'Projeto de conclusão do curso de JavaScript da Origamid.',
+    title: 'Readerly - WIP',
+    description: 'Uma aplicação web para aprender espanhol com textos interativos, dicionário integrado e sistema de SRS',
     techs: [
       {
-        label: 'HTML',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/html-icon.png?raw=true',
+        label: 'React',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
       },
       {
-        label: 'SASS',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/sass-icon.png?raw=true',
+        label: 'TypeScript',
+        icon: 'https://i.postimg.cc/Y2mVbSc3/Group-32.png',
       },
       {
-        label: 'JavaScript',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/javascript-icon.png?raw=true',
+        label: 'Tailwindcss',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/tailwind-icon.png',
       },
     ],
     links: {
-      live: 'https://sistema-solar-luciana.netlify.app/',
-      code: 'https://github.com/Luciana-Santos/sistema_solar',
+      live: 'https://readerly.luciana.dev/',
+      code: 'https://github.com/Luciana-Santos/readerly',
     },
-    imagem: 'https://i.postimg.cc/LXvQZZ8g/sistema-solar-preview.png',
+    imagem: 'https://i.postimg.cc/JhKr0X8G/readerly-preview.png',
   },
   {
     id: 2,
-    title: 'Lista de Leitura',
-    description: 'App para cadastro de livros e progresso de leitura.',
+    title: 'Recollection',
+    description:
+      'App para gerenciar arquivos. Projeto possui autenticação com OAuth, upload e gerenciamento de arquivos, dashboard.',
     techs: [
       {
-        label: 'HTML',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/html-icon.png?raw=true',
+        label: 'React',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
       },
       {
-        label: 'SASS',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/sass-icon.png?raw=true',
+        label: 'TypeScript',
+        icon: 'https://i.postimg.cc/Y2mVbSc3/Group-32.png',
       },
       {
-        label: 'JavaScript',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/javascript-icon.png?raw=true',
+        label: 'Tailwindcss',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/tailwind-icon.png',
       },
     ],
     links: {
-      live: 'https://lista-de-leitura.netlify.app/',
-      code: 'https://github.com/Luciana-Santos/lista-de-leitura',
+      live: 'https://recollection.luciana.dev/',
+      code: 'https://github.com/Luciana-Santos/recollection',
     },
-    imagem: 'https://i.postimg.cc/8c0yZQW1/lista-de-leitura-preview.png',
+    imagem: 'https://i.postimg.cc/j5Rk5htr/recollection-preview-1.png',
   },
   {
     id: 3,
@@ -190,51 +191,50 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Slice of Spice',
-    description: 'Landing page de um restaurante, com formulário de reserva.',
+    title: 'Lista de Leitura',
+    description: 'App para cadastro de livros e progresso de leitura.',
     techs: [
       {
-        label: 'React',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
+        label: 'HTML',
+        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/html-icon.png?raw=true',
+      },
+      {
+        label: 'SASS',
+        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/sass-icon.png?raw=true',
       },
       {
         label: 'JavaScript',
         icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/javascript-icon.png?raw=true',
       },
-      {
-        label: 'Styled Components',
-        icon: 'https://i.postimg.cc/pTspXBPg/styled-icon.png',
-      },
     ],
     links: {
-      live: 'https://sliceofspice.luciana.dev/',
-      code: 'https://github.com/Luciana-Santos/slice-of-spice',
+      live: 'https://lista-de-leitura.netlify.app/',
+      code: 'https://github.com/Luciana-Santos/lista-de-leitura',
     },
-    imagem: 'https://i.postimg.cc/597k4vrZ/slice-of-spice-preview.png',
+    imagem: 'https://i.postimg.cc/8c0yZQW1/lista-de-leitura-preview.png',
   },
   {
     id: 6,
-    title: 'Recollection',
-    description:
-      'App para gerenciar arquivos. Projeto possui autenticação com OAuth, upload e gerenciamento de arquivos, dashboard.',
+    title: 'Sistema Solar',
+    description: 'Projeto de conclusão do curso de JavaScript da Origamid.',
     techs: [
       {
-        label: 'React',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
+        label: 'HTML',
+        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/html-icon.png?raw=true',
       },
       {
-        label: 'TypeScript',
-        icon: 'https://i.postimg.cc/Y2mVbSc3/Group-32.png',
+        label: 'SASS',
+        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/sass-icon.png?raw=true',
       },
       {
-        label: 'Tailwindcss',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/tailwind-icon.png',
+        label: 'JavaScript',
+        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/javascript-icon.png?raw=true',
       },
     ],
     links: {
-      live: 'https://recollection.luciana.dev/',
-      code: 'https://github.com/Luciana-Santos/recollection',
+      live: 'https://sistema-solar-luciana.netlify.app/',
+      code: 'https://github.com/Luciana-Santos/sistema_solar',
     },
-    imagem: 'https://i.postimg.cc/j5Rk5htr/recollection-preview-1.png',
+    imagem: 'https://i.postimg.cc/LXvQZZ8g/sistema-solar-preview.png',
   },
 ]
