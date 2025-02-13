@@ -190,30 +190,6 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Slice of Spice',
-    description: 'Landing page de um restaurante, com formulário de reserva.',
-    techs: [
-      {
-        label: 'React',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
-      },
-      {
-        label: 'JavaScript',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/javascript-icon.png?raw=true',
-      },
-      {
-        label: 'Styled Components',
-        icon: 'https://i.postimg.cc/pTspXBPg/styled-icon.png',
-      },
-    ],
-    links: {
-      live: 'https://sliceofspice.luciana.dev/',
-      code: 'https://github.com/Luciana-Santos/slice-of-spice',
-    },
-    imagem: 'https://i.postimg.cc/597k4vrZ/slice-of-spice-preview.png',
-  },
-  {
-    id: 6,
     title: 'Recollection',
     description:
       'App para gerenciar arquivos. Projeto possui autenticação com OAuth, upload e gerenciamento de arquivos, dashboard.',
@@ -237,4 +213,29 @@ export const projects = [
     },
     imagem: 'https://i.postimg.cc/j5Rk5htr/recollection-preview-1.png',
   },
+  {
+    id: 6,
+    title: 'Readerly - WIP',
+    description: 'Uma aplicação web para aprender espanhol com textos interativos, dicionário integrado e sistema de SRS',
+    techs: [
+      {
+        label: 'React',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
+      },
+      {
+        label: 'TypeScript',
+        icon: 'https://i.postimg.cc/Y2mVbSc3/Group-32.png',
+      },
+      {
+        label: 'Tailwindcss',
+        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/tailwind-icon.png',
+      },
+    ],
+    links: {
+      live: 'https://readerly.luciana.dev/',
+      code: 'https://github.com/Luciana-Santos/readerly',
+    },
+    imagem: 'https://i.postimg.cc/j5zrNr6L/readerly.png',
+  },
+  
 ]
