@@ -235,7 +235,7 @@ export const projects = [
       live: 'https://readerly.luciana.dev/',
       code: 'https://github.com/Luciana-Santos/readerly',
     },
-    imagem: 'https://i.postimg.cc/j5zrNr6L/readerly.png',
+    imagem: 'https://i.postimg.cc/N00hNzhj/readerly-preview-1.png',
   },
   
 ]
