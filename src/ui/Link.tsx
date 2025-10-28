@@ -7,7 +7,7 @@ type TLink = {
 
 export default function Link({ name, path, children, ...props }: TLink) {
   return (
-    <a href={path} className="link" {...props}>
+    <a href={path} className="link" {...props} target="_blank">
       {children || name}
     </a>
   )

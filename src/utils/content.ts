@@ -30,37 +30,37 @@ export const content = {
     {
       id: Math.round(Math.random() * 99999),
       name: 'HTML',
-      icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/html-icon.png',
+      icon: '/assets/html.png',
     },
     {
       id: Math.round(Math.random() * 99999),
       name: 'SASS',
-      icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/sass-icon.png',
+      icon: '/assets/sass.png',
     },
     {
       id: Math.round(Math.random() * 99999),
       name: 'JavaScript',
-      icon: 'https://i.postimg.cc/D0sMZxQD/Group-6.png',
+      icon: '/assets/js.png',
     },
     {
       id: Math.round(Math.random() * 99999),
       name: 'TypeScript',
-      icon: 'https://i.postimg.cc/Y2mVbSc3/Group-32.png',
+      icon: '/assets/ts.png',
     },
     {
       id: Math.round(Math.random() * 99999),
-      name: 'React.js',
-      icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
+      name: 'React',
+      icon: '/assets/react.png',
     },
     {
       id: Math.round(Math.random() * 99999),
       name: 'Styled Components',
-      icon: 'https://i.postimg.cc/pTspXBPg/styled-icon.png',
+      icon: '/assets/styled.png',
     },
     {
       id: Math.round(Math.random() * 99999),
-      name: 'Express',
-      icon: '/assets/express-icon.png',
+      name: 'NestJS',
+      icon: '/assets/nestjs.png',
     },
     {
       id: Math.round(Math.random() * 99999),
@@ -74,18 +74,13 @@ export const content = {
     },
     {
       id: Math.round(Math.random() * 99999),
-      name: 'MongoDB',
-      icon: '/assets/mongodb-icon.png',
+      name: 'PostgreSQL',
+      icon: '/assets/postgresql.png',
     },
     {
       id: Math.round(Math.random() * 99999),
       name: 'Tailwindcss',
       icon: '/assets/tailwind-icon.png',
-    },
-    {
-      id: Math.round(Math.random() * 99999),
-      name: 'Mongoose ODM',
-      icon: '/assets/mongoose-icon.png',
     },
   ],
 }
@@ -94,7 +89,8 @@ export const projects = [
   {
     id: 1,
     title: 'Readerly - WIP',
-    description: 'Uma aplicação web para aprender espanhol com textos interativos, dicionário integrado e sistema de SRS',
+    description:
+      'Uma aplicação web para aprender espanhol com textos interativos, dicionário integrado e sistema de SRS',
     techs: [
       {
         label: 'React',
@@ -123,15 +119,15 @@ export const projects = [
     techs: [
       {
         label: 'React',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
+        icon: '/assets/react.png',
       },
       {
         label: 'TypeScript',
-        icon: 'https://i.postimg.cc/Y2mVbSc3/Group-32.png',
+        icon: '/assets/ts.png',
       },
       {
         label: 'Tailwindcss',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/lucianadev-portfolio/dev/public/assets/tailwind-icon.png',
+        icon: '/assets/tailwind-icon.png',
       },
     ],
     links: {
@@ -147,15 +143,15 @@ export const projects = [
     techs: [
       {
         label: 'React',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
+        icon: '/assets/react.png',
       },
       {
         label: 'TypeScript',
-        icon: 'https://i.postimg.cc/Y2mVbSc3/Group-32.png',
+        icon: '/assets/ts.png',
       },
       {
         label: 'Styled Components',
-        icon: 'https://i.postimg.cc/pTspXBPg/styled-icon.png',
+        icon: '/assets/styled.png',
       },
     ],
     links: {
@@ -172,15 +168,15 @@ export const projects = [
     techs: [
       {
         label: 'React',
-        icon: 'https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/img/react-icon.png',
+        icon: '/assets/react.png',
       },
       {
         label: 'JavaScript',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/javascript-icon.png?raw=true',
+        icon: '/assets/js.png',
       },
       {
         label: 'Styled Components',
-        icon: 'https://i.postimg.cc/pTspXBPg/styled-icon.png',
+        icon: '/assets/styled.png',
       },
     ],
     links: {
@@ -196,15 +192,15 @@ export const projects = [
     techs: [
       {
         label: 'HTML',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/html-icon.png?raw=true',
+        icon: '/assets/html.png',
       },
       {
         label: 'SASS',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/sass-icon.png?raw=true',
+        icon: '/assets/sass.png',
       },
       {
         label: 'JavaScript',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/javascript-icon.png?raw=true',
+        icon: '/assets/js.png',
       },
     ],
     links: {
@@ -220,15 +216,15 @@ export const projects = [
     techs: [
       {
         label: 'HTML',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/html-icon.png?raw=true',
+        icon: '/assets/html.png',
       },
       {
         label: 'SASS',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/sass-icon.png?raw=true',
+        icon: '/assets/sass.png',
       },
       {
         label: 'JavaScript',
-        icon: 'https://github.com/Luciana-Santos/Lucianadss-portfolio/blob/main/src/assets/img/javascript-icon.png?raw=true',
+        icon: '/assets/js.png',
       },
     ],
     links: {
