@@ -131,7 +131,7 @@ export const projects = [
       },
     ],
     links: {
-      live: 'https://recollection.luciana.dev/',
+      live: 'https://recollection.luciana.dev/landing',
       code: 'https://github.com/Luciana-Santos/recollection',
     },
     imagem: 'https://i.postimg.cc/j5Rk5htr/recollection-preview-1.png',
