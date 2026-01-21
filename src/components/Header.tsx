@@ -35,7 +35,7 @@ export default function Header() {
                 Contato
               </Button>
               <Button
-                path="https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/curriculo/Luciana-curriculo.pdf"
+                path="https://raw.githubusercontent.com/Luciana-Santos/Lucianadss-portfolio/main/src/assets/curriculo/LUCIANA SANTOS-2026.pdf"
                 className="flex items-center gap-2 text-ltOrange border-[3px] border-ltOrange hover:bg-dkViolet hover:border-dkViolet"
               >
                 <PiDownloadSimpleBold />
